@@ -16,6 +16,10 @@ public class LibraryTest {
     }
 
     @Test
+    public void testGetAllBook() {
+        library.getAllBook();
+    }
+    @Test
     public void testAddBook() {
         Book book3 = new Book("Python", "Mattes", "9781718502703", 2023);
         library.addBook(book3);
